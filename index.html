@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PokeDex</title>
+    <style>
+        h1{
+            color:red;
+            
+        }
+       
+    </style>
+    
 </head>
 <body>
-    
+    <h1>Primeiro site</h1>
+    <button id="btnTeste" type="button">
+        Teste
+    </button>
+
+    <script>
+        const btnTeste= document.getElementById("btnTeste")
+
+        btnTeste.addEventListener("click", function(){
+            console.log("Click no botao")
+        })
+        console.log(btnTeste)
+    </script>
 </body>
 </html>
