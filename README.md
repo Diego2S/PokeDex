@@ -1,3 +1,2 @@
 # PokeDex
-# PokeDex
-# PokeDex
+
